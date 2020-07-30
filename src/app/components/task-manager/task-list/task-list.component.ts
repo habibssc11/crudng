@@ -10,8 +10,8 @@ import { MessageService } from 'src/app/service/message.service';
 })
 export class TaskListComponent implements OnInit {
 
-  //tasks: Task[] = [];
-  tasks;
+  tasks: any = [];
+  //tasks;
 
   constructor(private taskServices: TaskService, private msg: MessageService) { }
 
